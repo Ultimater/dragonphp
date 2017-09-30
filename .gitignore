@@ -6,3 +6,4 @@ composer.lock
 composer.phar
 /cache/
 debug.log
+/app/config/config.php
