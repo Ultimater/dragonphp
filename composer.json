@@ -15,7 +15,7 @@
         "ext-json": "*",
         "ext-PDO": "*",
         "ext-phalcon": "^3.1",
-        "phalcon/incubator": "~3.1"
+        "phalcon/incubator": "~3.2"
     },
     "require-dev": {
         "phalcon/devtools": "3.*",
