@@ -1,5 +1,7 @@
 DragonPHP
 
+![build:errored](https://api.travis-ci.org/phalconfans/dragonphp.svg?branch=master)
+
 Phalcon is a web framework delivered as a C extension providing high performance and lower resource consumption.
 
 This is a mutli-module application for the Phalcon Framework. We expect to implement as many features as possible to showcase the framework and its potential.
@@ -21,7 +23,7 @@ To run this application on your machine, you need at least:
 
     PHP >= 5.6
 
-    Phalcon >= 3.0
+    Phalcon >= 3.1
 
     Apache Web Server with mod_rewrite enabled, and AllowOverride Options (or All) in your httpd.conf or Nginx Web Server
     Latest Phalcon Framework extension installed/enabled
@@ -31,7 +33,7 @@ To run this application on your machine, you need at least:
 Then you'll need to create the database and initialize schema:
 
 echo 'CREATE DATABASE dragonphp' | mysql -u root
-cat schemas/dragonphp.sql | mysql -u root dragonphp
+cat schemas/qaytmaydi.sql | mysql -u root dragonphp
 
 Also you can override application config by creating app/config/config.php (already gitignored).
 Installing Dependencies via Composer
