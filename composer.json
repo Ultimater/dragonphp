@@ -14,7 +14,7 @@
         "php": ">=7.0",
         "ext-json": "*",
         "ext-PDO": "*",
-        "ext-phalcon": "^3.1",
+        "ext-phalcon": "^3.2",
         "phalcon/incubator": "~3.2"
     },
     "require-dev": {
@@ -28,7 +28,6 @@
         "friendsofphp/php-cs-fixer": "^2.3",
         "fzaninotto/faker": "^1.6",
         "Mockery/Mockery": "^0.9.9",
-        "fabfuel/prophiler": "~1.0",
         "phpdocumentor/reflection-docblock": "3.1.*"
     },
     "license": "GPL v3",
