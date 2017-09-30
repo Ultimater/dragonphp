@@ -49,6 +49,11 @@
             "Phalcon\\Test\\Module\\": "tests/_support/Module/"
         }
     },
+    "scripts": {
+        "post-update-cmd": [
+            "php -r \"file_exists('app/config/config.php') || copy('app/config/config.example.php', 'app/config/config.php');\""
+        ]
+    },
     "support": {
         "issues": "https://github.com/kideny/dragonphp/issues",
         "source": "https://github.com/kideny/dragonphp",
